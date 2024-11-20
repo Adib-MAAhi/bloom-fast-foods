@@ -2,7 +2,7 @@ import React from 'react';
 
 function Background() {
     return (
-        <div className="bg-[url('/images/Burger-3.jpg')] bg-cover bg-center bg-no-repeat h-[500px] md:w-full rounded-lg shadow-lg filter brightness-75">
+        <div className="bg-[url('/images/Burger-4.jpg')] bg-cover bg-center bg-no-repeat h-[500px] md:w-full rounded-lg shadow-lg filter brightness-75">
             <div className="mt-0 relative flex items-center justify-center h-full px-4 text-center text-white">
                 <div>
                     <h1 className="text-xl font-bold md:text-xl lg:text-3xl">
