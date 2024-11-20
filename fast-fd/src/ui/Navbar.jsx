@@ -143,7 +143,7 @@ function Navbar() {
               <NavLink
                 to="/burger"
                 className="text-lg font-medium text-black hover:underline hover:text-orange-800"
-                activeClassName="text-orange-800 font-bold"
+                activeclassname="text-orange-800 font-bold"
               >
                 Burger
               </NavLink>
@@ -152,7 +152,7 @@ function Navbar() {
               <NavLink
                 to="/pizza"
                 className="text-lg font-medium text-black hover:underline hover:text-orange-800"
-                activeClassName="text-orange-800 font-bold"
+                activeclassname="text-orange-800 font-bold"
               >
                 Pizza
               </NavLink>
@@ -161,7 +161,7 @@ function Navbar() {
               <NavLink
                 to="/tacobar"
                 className="text-lg font-medium text-black hover:underline hover:text-orange-800"
-                activeClassName="text-orange-800 font-bold"
+                activeclassname="text-orange-800 font-bold"
               >
                 Taco Bar
               </NavLink>
@@ -170,7 +170,7 @@ function Navbar() {
               <NavLink
                 to="/about"
                 className="text-lg font-medium text-black hover:underline hover:text-orange-800"
-                activeClassName="text-orange-800 font-bold"
+                activeclassname="text-orange-800 font-bold"
               >
                 About Us
               </NavLink>
