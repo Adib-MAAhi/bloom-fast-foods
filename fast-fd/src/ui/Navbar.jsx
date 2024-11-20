@@ -97,7 +97,7 @@ export default Navbar; */
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import SearchOrder from "../feature/order/SearchOrder";
-import Background from "./Background";
+
 
 
 function Navbar() {
@@ -105,7 +105,7 @@ function Navbar() {
 
   return (
     <div>
-    <header className="bg-body-Blk shadow-md mt-24 sm:mt-20">
+    <header className="bg-body-Blk shadow-md mt-24 sm:mt-14">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <SearchOrder/>
         <button
@@ -179,7 +179,6 @@ function Navbar() {
         </nav>
       </div>
     </header>
-    <Background/>
   </div>
   );
 }

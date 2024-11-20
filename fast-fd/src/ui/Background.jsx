@@ -2,13 +2,13 @@ import React from 'react';
 
 function Background() {
     return (
-        <div className="bg-[url('/images/Burger-4.jpg')] bg-cover bg-center bg-no-repeat h-[500px] md:w-full rounded-lg shadow-lg filter brightness-75">
+        <div className="bg-[url('/images/girls.jpg')] sm:bg-[url('/images/bur-3.jpg')] bg-cover bg-center bg-no-repeat h-[500px] md:w-full rounded-lg shadow-lg filter brightness-75">
             <div className="mt-0 relative flex items-center justify-center h-full px-4 text-center text-white">
-                <div>
-                    <h1 className="text-xl font-bold md:text-xl lg:text-3xl">
+                <div className='mt-24 sm:mt-0'>
+                    <h1 className="text-2xl font-bold md:text-2xl lg:text-5xl">
                         Welcome to Bloom Fast Foods
                     </h1>
-                    <p className="mt-4 text-lg md:text-xl font-semibold lg:text-2xl text-black">
+                    <p className="mt-4 text-lg md:text-xl font-semibold lg:text-2xl text-body-mahi">
                         Delicious burgers made fresh every day!
                     </p>
                    <div className='mt-16'>
