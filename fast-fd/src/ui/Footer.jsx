@@ -2,7 +2,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   const companyName = "MAA Ahi BlooM";
   return (
-    <div className="fixed bottom-0 right-0 left-0 flex flex-col sm:flex-row items-center justify-between p-2 sm:p-4 md:p-3 bg-body-footer text-body-footertext shadow-md z-10 ">
+    <div className="fixed bottom-0 right-0 left-0 flex  sm:flex-row items-center justify-between p-1 sm:p-4 md:p-3 bg-body-footer text-body-footertext shadow-md z-10 ">
       <p className="flex space-x-4  font-semibold">
         <span>Ahi Bloom</span>
       </p>
